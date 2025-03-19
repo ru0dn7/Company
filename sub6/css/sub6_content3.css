@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+.content_area {width: 1400px; margin: 0 auto;}
+section {padding: 100px 0;}
+
+/* FAQ section */
+.faq {border-bottom:1px solid #ddd;font-size:12px; width: 1400px; margin: 100px auto;}
+.faq .hgroup {position:relative;margin:0 0 10px 0; text-align: right;}
+.faq .hgroup .all {display: inline-block;}
+.faq .hgroup .all i {font-size: 30px; padding: 10px;}
+.faq ul {margin:0;padding:0;list-style:none}  
+.faq .q {margin:0;border-top:1px solid #ddd; position: relative;}  
+.faq .q a::before {font-family:FontAwesome; content:"\f2c4"; display: block; color: #5A260D;}
+.faq .q a.trigger {display:flex; align-items: center; gap: 10px; padding:30px 15px; background:#e8f0fd; color:#333; text-align:left; text-decoration:none; font-size: 26px;}
+.faq .hide .q a.trigger {font-weight:normal;background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus {background:#e8f0fd;color:#000} 
+.faq .q span {display: block; position: absolute; right: 15px; top:50%; transform: translateY(-50%); font-size: 24px;} 
+.faq .a {display: none; padding: 30px; line-height: 2rem; font-size: 20px;} 
+.faq .a::before {font-family:FontAwesome; content:"\f031"; display: inline-block; margin-right: 10px; color: #5A260D;}

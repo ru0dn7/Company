@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.content_area {width: 1400px; margin: 0 auto;}
+section {padding: 100px 0;}
+
+/* 지역 사회활동 section */
+.social {}
+.social ul {}
+.social ul li {margin-bottom: 100px;}
+.social ul li.full {display: flex; flex-direction: column;}
+.social ul li.full img {width: 100%; height: 500px; background: lightblue; border-radius: 30px; box-shadow: 15px 15px 5px 5px rgba(0,0,0,.4);}
+.social ul li p {color: #333; font-size: 20px; padding: 40px; line-height: 1.5em;}
+.social ul li {display: flex; justify-content: space-between; align-items: center; gap: 30px; margin-bottom: 100px;}
+.social ul li img {width: 750px; height: 450px; box-shadow: -15px 15px 5px 5px rgba(0,0,0,.4);}
+.social ul li.reverse {flex-direction: row-reverse;}
+.social ul li.reverse img { box-shadow: 15px 15px 5px 5px rgba(0,0,0,.4);}
+.social ul li dl {width: 43%;}
+.social ul li dt {color: #5A260D; font-size: 30px; margin-bottom: 20px;}
+.social ul li dd {color: #333; font-size: 20px; line-height: 2rem;}

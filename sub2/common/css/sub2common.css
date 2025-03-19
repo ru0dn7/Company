@@ -1,0 +1,38 @@
+@charset "utf-8";
+.hidden {display: block; width: 1px; height: 1px; overflow: hidden; color: #fff; position: absolute; left: -999%; top: 0;}
+
+/* sub_visual 공통 */
+.visual {width: 2000px; height: 400px; position: relative; top: 0; left: 50%; transform: translateX(-50%); background: url(../images/visual02.png);}
+/* .visual {width: 2000px; height: 400px; position: relative; top: 0; left: 50%; transform: translateX(-50%); background: url(../images/visual03.png);} */
+.visual strong {font-size: 30px; color: #fff; position: absolute; top: 200px; left: 0; width: 100%; text-align: center;}
+
+/* sub_nav 공통 */
+.sub_nav {width: 100%; border-bottom: 1px solid #ccc;}
+.sub_nav ul {width: 1400px; margin: 0 auto; display: flex;}
+.sub_nav ul li {width: 100%; text-align: center; box-sizing: border-box;}
+.sub_nav ul li a {font-size: 1.2rem; font-weight: bold; padding: 20px 0;border-bottom: 3px solid transparent; transition: all .5s ease-in-out;}
+.sub_nav ul li a.current {color: #5A260D; border-bottom: 3px solid #5A260D;}
+.sub_nav ul li:hover a {color: #5A260D; border-bottom: 3px solid #5A260D;}
+
+/* title_area 공통 */
+#content {width: 100%;}
+#content .title_area {width: 1400px; margin: 0 auto; position: relative; overflow: hidden;}
+#content .title_area .line_map {position: absolute; right: 15px; top: 20px; color: #666; overflow: hidden; display: flex; gap: 5px;}
+#content .title_area .line_map a {display: inline-flex; color: #666;}
+#content .title_area .title_wrap {text-align: center; margin-top: 150px;}
+#content .title_area .title_wrap span {font-size: 1.2rem; font-weight: bold; color: #5A260D;}
+#content .title_area h2 {font-size: 60px; font-weight: bold; text-align: center; margin: 0 0 200px; position: relative;}
+#content .title_area h2::after {content: ''; display: block; width: 5px; height: 120px; background: linear-gradient(to bottom, #AF3E08, #D1815C); position: absolute; left: 50%; top: 50%; transform: translate(-50%, 70%);}
+#content .title_area p {font-size: 1.2rem; text-align: center; margin-bottom: 100px;}
+
+.search_container {display: flex; justify-content: space-between; align-items: center;}
+.search_container .search_box {display: inline-flex; gap: 10px;}
+.search_container .search_box input {padding: 10px 20px; width: 70%; font-size: 1rem; border: 0; background: #fff; color: #333; border-radius: 10px; outline: none; box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, .1); transition: all .5s;}
+.search_container .search_box input:focus {box-shadow: 1px 1px 10px 1px rgba(0,0,0,.4); transform: scale(1.03); background: #eee;}
+.search_container .search_box .btn_search,
+.search_container .search_box .btn_all {width: 60px; background: #a35ac4; border-radius: 10px; border: 0; color: #fff; cursor: pointer;}
+.search_container .search_box .btn_search:hover,
+.search_container .search_box .btn_all:hover {background: #bd83d7;}
+.search_container .search_box .btn_all {width: 80px;}
+.search_container .search_box .btn_search {font-size: 20px;}
+.search_container .cnt_total {color: #333;}

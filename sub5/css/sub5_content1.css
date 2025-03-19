@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+/* 브랜드소개 페이지 내용영역 */
+.content_area {width: 1400px; margin: 0 auto;}
+.content_area h3 {font-size: 3.125rem; color: #5A260D; text-align: center; position: relative;}
+section {padding: 100px 0;}
+
+/* 브랜드 소개 section (About COFFINE GURUNARU) */
+.about {}
+.about .img_box {margin: 0 auto; position: relative;}
+.about .img_box ul {width: 1100px; height: 590px; position: relative; margin: 0 auto;}
+.about .img_box li {position: absolute; width: 420px; height: 380px; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);}
+.about .img_box li:nth-of-type(1) {left: 0; bottom: 0;}
+.about .img_box li:nth-of-type(2) {left: 50%; top:0; transform: translate(-50%);}
+.about .img_box li:nth-of-type(3) {right: 0; bottom: 0;}
+.about .img_box li img {width: 100%; height: 100%;}
+.about .img_box h3 {position: absolute; left: 50%; bottom: -20%; transform: translate(-50%) !important; font-weight: 700;}
+.about .img_box h3::after {content: ''; display: block; width: 350px; height: 6px; position: absolute; left: 50%; bottom: -20%; transform: translate(-50%); background: #5A260D;}
+.about p:nth-of-type(1) {color: #5A260D; font-size: 2.625rem; font-weight: 600; margin-top: 250px;}
+.about p:nth-of-type(2) {color: #533E34; font-size: 1.875rem; font-weight: 400; margin-top: 30px;}
+
+/* 해외진출 section */
+.global {}
+.global .img_box {margin: 150px auto 0; position: relative;}
+.global .img_box ul {width: 1100px; height: 590px; position: relative; margin: 0 auto;}
+.global .img_box li {position: absolute; width: 420px; height: 380px; clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);}
+.global .img_box li:nth-of-type(1) {left: 0; top: 0;}
+.global .img_box li:nth-of-type(2) {left: 50%; bottom:0; transform: translate(-50%);}
+.global .img_box li:nth-of-type(3) {right: 0; top: 0;}
+.global .img_box li img {width: 100%; height: 100%;}
+.global .img_box h3 {position: absolute; left: 50%; top: -15%; transform: translate(-50%) !important;}
+.global .img_box h3::after {content: ''; display: block; width: 350px; height: 6px; position: absolute; left: 50%; top: -20%; transform: translate(-50%); background: #5A260D;}
+.global p:nth-of-type(1) {color: #5A260D; font-size: 2.625rem; font-weight: 600; margin-top: 100px;}
+.global ul:nth-last-child(1) {list-style: initial; list-style-position : inside; margin: 30px 0;}
+.global li {margin: 10px 0; color: #533E34; font-size: 1.5rem;}
+
+/* mission section */
+.mission {background: #F6F1E8; text-align: center; width: 100vw; margin-left: calc(-50vw + 50%);}
+.mission .mission_wrap {width: 1400px; margin: 0 auto;}
+.mission h3 {margin-bottom: 50px;}
+.mission  h3::after {content: ''; display: block; width: 350px; height: 6px; position: absolute; left: 50%; top: -20%; transform: translate(-50%); background: #5A260D;}
+.mission p {color: #333; font-size: 1.25rem; margin-top: 50px; word-break: keep-all; line-height: 2rem;}
+
+/* bi section */
+.bi li {display: flex; align-items: center; gap: 50px; margin-bottom: 100px;}
+.bi li img {width: 300px;}
+.bi .text_box h3 {text-align: initial; margin-bottom: 20px;}
+.bi .text_box p {color: #333; font-size: 1.25rem; word-break: auto-phrase; line-height: 2rem;}
+.bi li:nth-of-type(2n) {flex-direction: row-reverse;}
+.bi li:nth-of-type(2n) img {width: 800px}
+.bi .rule {color: #999; font-size: 1.25rem; line-height: 1.5rem;}
+

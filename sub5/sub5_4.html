@@ -1,0 +1,129 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+
+    // $userid = $_SESSION['userid'];
+    // $username = $_SESSION['username'];
+    // $usernick = $_SESSION['usernick'];
+    // $userlevel = $_SESSION['userlevel'];
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개:오시는길</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="../common/css/aos.css">
+    <link rel="stylesheet" href="./common/css/sub5common.css">
+    <link rel="stylesheet" href="./css/sub5_content4.css">
+
+    <!-- 구글아이콘 폰트 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <div class="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+
+    <div class="wrap">
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <strong>회사소개</strong>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub5_1.html">브랜드 소개</a></li>
+                <li><a href="./sub5_2.html">연혁</a></li>
+                <li><a href="./sub5_3.html">Coffee & Wine</a></li>
+                <li><a class="current" href="./sub5_4.html">오시는길</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <a href="../index.html"><span class="material-symbols-outlined">home</span>Home ></a> 회사소개 >
+                    <strong>오시는길</strong>
+                </div>
+                <div class="title_wrap">
+                    <span>Directions</span>
+                    <h2>오시는길</h2>
+                </div>
+            </div>
+            <div class="content_area">
+                <section class="map_container">
+                    <h3 class="hidden">카카오지도</h3>
+                    <div id="map"></div>
+                    <div class="map_info">
+                        <ul>
+                            <li>
+                                <p><i class="fa-solid fa-phone"></i> 전화 / 팩스</p><span>02-2202-0791 / FAX
+                                    02-2202-0807</span>
+                            </li>
+                            <li>
+                                <p><i class="fa-solid fa-location-dot"></i> 주소</p><span>우&#41; 05627 여산빌딩<br>
+                                    서울특별시 송파구 백제고분로50길 7(방이동)</span>
+                            </li>
+                        </ul>
+                        <div>
+                            <button onclick="window.open('https://kko.kakao.com/S1380cHGZ6'), _blank"><i
+                                    class="fa-solid fa-map-location-dot"></i>자세히보기</button>
+                            <button onclick="window.print(document.querySelector('#map'));"><i
+                                    class="fa-solid fa-print"></i>인쇄하기</button>
+                        </div>
+                    </div>
+                    <div class="way" data-aos="fade-right" data-aos-duration="1500"
+                        data-aos-anchor-placement="center-bottom">
+                        <strong>오시는 방법</strong>
+                        <dl>
+                            <dt>자가용 이용안내</dt>
+                            <dd>네비게이션에 "커핀그루나루" 검색</dd>
+                        </dl>
+                        <dl>
+                            <dt>대중교통 이용안내</dt>
+                            <dd>서울 9호선 "한성백제역" 하차 후 4번 출구로 나와 "송파나루역" 방향 도보 333m &#40;5분&#41;</dd>
+                        </dl>
+                    </div>
+                </section>
+
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+    </div>
+
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- 키값 -->
+    <script src="//dapi.kakao.com/v2/maps/sdk.js?appkey=a5e93cbf78c07063a61605033bea8515"></script>
+    <script src="https://t1.daumcdn.net/mapjsapi/js/main/4.4.19/kakao.js"></script>
+    <script src="./js/map.js"></script>
+
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/jquery.easing.1.3.js"></script>
+
+    <!-- 스크롤에 반응하는 header, familySite box JS -->
+    <script src="../common/js/common.js"></script>
+
+    <!-- aos js -->
+    <script src="../common/js/aos.js"></script>
+    <script>AOS.init();</script>
+
+
+
+</body>
+
+</html>

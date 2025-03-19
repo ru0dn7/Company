@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+.content_area {width: 1400px; margin: 0 auto;}
+.content_area h3 {font-size: 3.125rem; color: #5A260D; text-align: center; position: relative;}
+section {padding: 100px 0;}
+
+/* Coffee & Wine 페이지 내용영역 */
+    /* Coffee 탭 */
+.tabs {display: flex; justify-content: space-around; border-radius: 10px; overflow: hidden; box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, .3); margin: 100px 0;}
+.tabs li {width: 50%; border: 1px solid #ccc;}
+.tabs li a {color: #333; padding: 20px 0; text-align: center; font-size: 22px;}
+.tabs li.on a,
+.tabs li:hover a {background: #832e92; color: #fff; font-weight: bold;}
+.tab .info li {display: flex; margin-bottom: 100px; gap: 30px; justify-content: space-between;}
+.tab .info li:nth-of-type(2n) {flex-direction: row-reverse;}
+.tab .info li img {width: 750px; height: 500px; border-radius: 100px 0 0 100px; position: relative;}
+.tab .info li:nth-of-type(2n) img {border-radius: 0 100px 100px 0;}
+.tab .info li dl {width: 43%; position: relative;}
+.tab .info li dt {font-size: 35px; color: #333; font-weight: bold; margin-bottom: 20px;}
+.tab .info li dd {font-size: 20px; color: #333; line-height: 2rem;}
+
+.process_coffee {background: #F6F1E8; text-align: center; width: 100vw; margin-left: calc(-50vw + 50%); padding: 100px 0 150px;}
+.process_coffee ul {display: flex; position: relative; z-index: 20; justify-content: space-between; width: 1000px; margin: 0 auto; padding: 100px;}
+.process_coffee ul::before {content: ''; display: block; width: 75%; height: 10px; background: #999; position: absolute; left: 50%; top: 38%; transform: translate(-50%, -50%); z-index: -10;}
+.process_coffee ul::after {content: '커핀그루나루의 로스팅 포인트!'; width: 400px; height: 350px; border: 5px dashed #999; border-radius: 20px; position: absolute; left: 58%; top: 59%; transform: translate(-50%, -50%); background: rgba(0, 0, 0, 0.1); z-index: -1; display: flex; justify-content: center; align-items: flex-end; font-size: 22px; padding-bottom: 25px;}
+.process_coffee ul li {position: relative; padding: 50px; cursor: pointer;}
+.process_coffee ul li img {width: 60px;}
+.process_coffee ul li p {margin-top: 30px; color: #333; font-size: 30px;}
+.process_coffee ul li:first-of-type {padding-left: 0;}
+.process_coffee ul li:last-of-type {padding-right: 0;}
+.process_coffee ul li .comment {opacity: 0; background: #ffe6cf; width: 230px; position: absolute; left: 50%; top: 230px; transform: translate(-50%); border-radius: 20px; padding: 20px; box-sizing: border-box; color: #333; font-size: 16px; text-align: justify; box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, .3); transition: all .5s ease-out;}
+.process_coffee ul li .comment::before {content: ''; position: absolute; top: 1px; left: 50%; width: 0; height: 0; border: 30px solid transparent; border-bottom-color: #ffe6cf; border-top: 0; margin-left: -30px; margin-top: -30px;}
+.process_coffee ul li:hover .comment {opacity: 1; color: #333;}
+.process_coffee ul li:nth-of-type(2n) .comment {top: -220px;}
+.process_coffee ul li:nth-of-type(2n) .comment::before {top: initial; bottom: -58px; border: 30px solid transparent; z-index: 10;}
+.process_coffee ul li:nth-of-type(1) .comment {left: 30%;}
+.process_coffee ul li:nth-of-type(2) .comment {background: #EFCAAC;}
+.process_coffee ul li:nth-of-type(2) .comment::before {border-top-color: #EFCAAC;}
+.process_coffee ul li:nth-of-type(3) .comment {background: #A57667; color: #fff;}
+.process_coffee ul li:nth-of-type(3) .comment::before {border-bottom-color: #A57667;}
+.process_coffee ul li:nth-of-type(4) .comment {background: #775140; color: #fff;}
+.process_coffee ul li:nth-of-type(4) .comment::before {border-top-color: #775140;}
+.process_coffee ul li:nth-of-type(5) .comment {background: #4E3D33;  color: #fff; left: 65%;}
+.process_coffee ul li:nth-of-type(5) .comment::before {border-bottom-color: #4E3D33;}
+
+    /* Wine 탭 */
+.tab:nth-of-type(2n) .info li {flex-direction: row-reverse;}
+.tab:nth-of-type(2n) .info li:nth-of-type(2n) {flex-direction: initial;}
+.tab:nth-of-type(2n) .info li img {border-radius: 0 100px 100px 0;}
+.tab:nth-of-type(2n) .info li:nth-of-type(2n) img {border-radius: 100px 0 0 100px;}
+.process_wine {background: #F6F1E8; text-align: center; width: 100vw; margin-left: calc(-50vw + 50%); padding: 100px 0 150px;}
+.process_wine ul {display: flex; flex-wrap: wrap; gap: 90px 0; padding: 0 90px; width: 1400px; margin: 0 auto; margin-top: 100px;}
+.process_wine ul li {position: relative; margin-right: 150px; width: 20%;}
+.process_wine ul li:last-of-type {margin-right: initial;}
+.process_wine ul li::after {content: ''; display: block; width: 50px; height: 50px; position: absolute; left: 115%; top: 50%; border:solid #5a6a72; border-width: 15px 15px 0 0; transform: translateY(-50%) rotate(45deg);}
+.process_wine ul li:nth-of-type(4) {margin-left: 250px;}
+.process_wine ul li:nth-of-type(3)::after,
+.process_wine ul li:nth-of-type(6)::after {content: initial;}
+.process_wine ul li:hover .flip_wrap {transform: rotateY(180deg);}
+.process_wine ul li .flip_wrap {width: 300px; height: 300px; border-radius: 50%; background: #D9D9D9; position: relative; transform-style: preserve-3d; transition: all .5s ease-out; box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.3); border-radius: 50%;}
+.process_wine ul li .flip_front {width: 300px; height: 300px; border-radius: 50%; position: absolute; display: flex; justify-content: center; align-items: center; flex-direction: column; backface-visibility: hidden; z-index: 1;}
+.process_wine ul li .flip_back {transform: rotateY(180deg); border-radius: 50%; height: 300px; display: flex; text-align: justify; align-items: center; padding: 20px; box-sizing: border-box; z-index: 0; backface-visibility: hidden;}
+.process_wine ul li .flip_back p {color: #333; font-size: 1rem; text-align: center;}
+.process_wine ul li .flip_back span {display: block; font-size: 1.2rem; font-weight: bold; margin-bottom: 10px;}
+

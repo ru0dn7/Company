@@ -1,0 +1,215 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+
+    // $userid = $_SESSION['userid'];
+    // $username = $_SESSION['username'];
+    // $usernick = $_SESSION['usernick'];
+    // $userlevel = $_SESSION['userlevel'];
+?>
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>멤버십:퍼플멤버십 소개</title>
+
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub2common.css">
+    <link rel="stylesheet" href="../common/css/aos.css">
+    <link rel="stylesheet" href="./css/sub2_content1.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- 구글아이콘 폰트 -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+
+    <div class="wrap">
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <img src="" alt="">
+            <strong>멤버십</strong>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a class="current" href="./sub2_1.html">퍼플멤버십 소개</a></li>
+                <li><a href="./sub2_2.html">퍼플멤버십 혜택</a></li>
+                <li><a href="./sub2_3.html">충전형/기프트 카드</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <a href="../index.html"><span class="material-symbols-outlined">home</span>Home ></a> 멤버십 >
+                    <strong>퍼플멤버십 소개</strong>
+                </div>
+                <div class="title_wrap">
+                    <span>Membership Info</span>
+                    <h2>퍼플멤버십 소개</h2>
+                </div>
+            </div>
+            <div class="content_area">
+
+
+                <section>
+                    <h3>앱 주요 기능</h3>
+                    <div class="app_func">
+                        <div class="app_left">
+                            <div class="txt_area" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000"
+                                data-aos-once="true">
+                                <span>퍼플멤버스</span>는 스마트폰으로 커핀그루나루 카드 등록 및 충전, 결제, 쿠폰확인 및
+                                사용까지 할 수 있는 커핀그루나루 공식 멤버십 어플리케이션입니다.
+                                <span>커핀그루나루 현물 전자상품권인 충전형/ 기프트 카드를 어플리케이션에 등록을 하시거나,
+                                    어플리케이션에서 모바일 전용 카드를 구매 및 충전하면 커핀그루나루를 더 스마트하게
+                                    즐길 수 있습니다. 퍼플멤버스 사용에 따라 달라지는 등급 혜택을 경험할 수 있습니다.</span>
+                            </div>
+                            <div class="store_box" data-aos="fade-right" data-aos-delay="700" data-aos-duration="1000"
+                                data-aos-once="true">
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=kr.co.coffine.app.android&pcampaignid=web_share"><img
+                                        src="./images/content01/qr.png" alt=""></a>
+                                <a
+                                    href="https://play.google.com/store/apps/details?id=kr.co.coffine.app.android&pcampaignid=web_share"><img
+                                        src="./images/content01/googleplay.png" alt=""></a>
+                                <a
+                                    href="https://apps.apple.com/kr/app/%ED%8D%BC%ED%94%8C-%EB%A9%A4%EB%B2%84%EC%8A%A4/id816168523"><img
+                                        src="./images/content01/appstore.png" alt=""></a>
+                            </div>
+                        </div>
+
+                        <div class="app_right" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000"
+                            data-aos-once="true">
+                            <div class="swiper card_swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <p>선불카드 및 기프티콘 사용</p>
+                                        <img src="./images/content01/card01.png" alt="">
+                                        <span>편리한 결제를 위한 다양한 옵션 제공</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p>이용 내역 및 카드 관리</p>
+                                        <img src="./images/content01/card02.png" alt="">
+                                        <span>자신의 사용 내역을 손쉽게 확인하세요.</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p>스탬프 적립</p>
+                                        <img src="./images/content01/card03.png" alt="">
+                                        <span>매번 적립하고 특별한 혜택을 받으세요.</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p>매장 찾기</p>
+                                        <img src="./images/content01/card04.png" alt="">
+                                        <span>가까운 매장을 빠르게 검색하세요.</span>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <p>e기프티 선물하기</p>
+                                        <img src="./images/content01/card05.png" alt="">
+                                        <span>소중한 사람에게 e기프티를 선물해보세요.</span>
+                                    </div>
+                                </div>
+
+                                <!-- 네비게이션 버튼 -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 앱 주요 기능 -->
+                <section>
+                    <h3>퍼플멤버스 공통 혜택</h3>
+                    <div class="benefit_box">
+                        <div class="benefit_left" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000"
+                            data-aos-once="true">
+                            <div class="img_box">
+                                <img src="./images/content01/benefit01.png" alt="">
+                            </div>
+                        </div>
+                        <div class="benefit_right">
+                            <ul data-aos="fade-left" data-aos-delay="500" data-aos-duration="1000" data-aos-once="true">
+                                <li class="on">
+                                    <dl>
+                                        <dt>1만원 이상 충전 시 마다 SIZE UP 쿠폰 1매</dt>
+                                        <dd>1만원 이상 충전 시 마다 <span>SIZE UP 쿠폰</span>이 발급됩니다. </dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>2만원 이상 충전 시 마다 아메리카노(S) 1+1 쿠폰</dt>
+                                        <dd>2만원 이상 충전 시 마다 <span>아메리카노(S) 1+1 쿠폰</span>이 발급됩니다.</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>3만원 이상 충전 시 마다 제조음료(S) 1+1 쿠폰</dt>
+                                        <dd>3만원 이상 충전 시 마다 <span>제조음료(S) 1+1 쿠폰</span>이 발급됩니다.</dd>
+                                    </dl>
+                                </li>
+                                <li>
+                                    <dl>
+                                        <dt>스탬프 10개 적립 시, 아메리카노(S) 1잔 무료</dt>
+                                        <dd>스탬프 10개 적립 시마다 <span>아메리카노(S) 1잔</span> 무료혜택을 받을 수 있습니다.</dd>
+                                    </dl>
+                                </li>
+                            </ul>
+
+                            <ul>
+                                <li>·퍼플멤버스에 등록된 카드로 구매하실 경우에만 쿠폰적용 혜택을 받으실 수 있습니다.</li>
+                                <li>·바리스타가 직접 제조한 음료에만 사용 가능합니다. (빙수, 병음료, MD, 사이드 메뉴 제외)</li>
+                                <li>·(S)사이즈 음료에만 사용 가능하며, (R)사이즈가 최소일 시 (R)사이즈가 적용됩니다.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+    </div>
+
+    <!-- 폰트어썸 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"
+        integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/jquery.easing.1.3.js"></script>
+
+    <!-- 스크롤에 반응하는 header, familySite box JS -->
+    <script src="../common/js/common.js"></script>
+
+    <!-- Card swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".card_swiper", {
+            effect: "cards",
+            grabCursor: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script>
+
+    <script src="./js/membership.js"></script>
+
+    <!-- aos js -->
+    <script src="../common/js/aos.js"></script>
+    <script>AOS.init();</script>
+
+</body>
+
+</html>

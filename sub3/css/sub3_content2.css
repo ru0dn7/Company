@@ -1,0 +1,20 @@
+@charset "utf-8"; .content_area { width: 1400px; margin: 0 auto; } 
+section { padding: 100px 0; } 
+section h3 { width: 100%; font-size: 2.55rem; color: #5A260D; } 
+
+
+.container {margin: 100px auto;} 
+.container ul {background: url(../images/content02/bg_porcess.png) center no-repeat; height: 1300px; position: relative;}
+.container li {padding: 20px; font-size: 1.2em; display: flex; flex-direction: column; width: 250px; height: 330px; position: absolute; background: #fff;    box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, .3); border-radius: 20px; align-items: center; transition: all .5s ease-in-out;}
+.container li:hover {transform: scale(1.05);}
+.container li img {width: 250px; margin-bottom: 20px;}
+.container li:nth-of-type(1) {left: 20px; top: 0;}
+.container li:nth-of-type(2) {left: 470px; top: 0;}
+.container li:nth-of-type(3) {left: 900px; top: 0;}
+.container li:nth-of-type(4) {right: 340px; top: 500px;}
+.container li:nth-of-type(5) {right: 750px; top: 500px; order: 8; }
+.container li:nth-of-type(6) {left: 300px; top: 950px; order: 7; }
+.container li:nth-of-type(7) {left: 700px; top: 950px; order: 6; }
+.container li:nth-of-type(8) {left: 1100px; top: 950px; order: 5; }
+.container li dt {text-align: center; font-weight: 600; margin-bottom: 10px;} 
+.container li dd {text-align: center; font-size: 1rem; line-height: 1.3rem;}

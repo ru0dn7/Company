@@ -1,0 +1,52 @@
+{
+    "menu_coffee": [
+        {"menu_kr":"밀키라떼(HOT/ICED)","menu_eng":"Milky Latte","Image":"./images/content01/coffee_01.png","info":"에스프레소에 생크림과 우유를 넣어 풍미 깊은 맛을 느낄 수 있는 라떼", "hit": true, "best": false},
+        {"menu_kr":"더블 카페라떼(HOT/ICED)","menu_eng":"Doble Caffe Latte","Image":"./images/content01/coffee_02.png","info":"카페라떼에 에스프레소 샷이 추가되어 진한맛을 그대로 느낄 수 있는 라떼", "hit": false, "best": true},
+        {"menu_kr":"에소프레소 (HOT)","menu_eng":"Espresso","Image":"./images/content01/coffee_03.png","info":"이탈리아식으로 추출된 깊고 진한 커피 본연의 맛의 커피", "hit": false, "best": false},
+        {"menu_kr":"에소프레소 마끼아또 (HOT)","menu_eng":"Espresso Macchiato","Image":"./images/content01/coffee_04.png","info":"에스프레소와 부드러운 우유 거품이 어우러져 깊고 부드러운 커피", "hit": false, "best": false},
+        {"menu_kr":"카푸치노 (HOT/ ICED)","menu_eng":"Cappuccino","Image":"./images/content01/coffee_05.png","info":"음료내용음료내용음료내용", "hit": false, "best": false},
+        {"menu_kr":"카페 아메리카노 (HOT/ ICED)","menu_eng":"Caffe Americano","Image":"./images/content01/coffee_06.png","info":"프리미엄 원두를 갓 볶아 진하고 풍부한 맛과 향을 느낄 수 있는 커피", "hit": true, "best": false},
+        {"menu_kr":"카페라떼 (HOT/ ICED)","menu_eng":"Caffe Latte","Image":"./images/content01/coffee_07.png","info":"진한 에스프레소에 고소한 우유가 어우러져 부드럽게 즐길 수 있는 커피", "hit": true, "best": false},
+        {"menu_kr":"카라멜 마끼아또 (HOT/ ICED)","menu_eng":"Caramel Macchiato","Image":"./images/content01/coffee_08.png","info":"진한 에스프레소에 카라멜과 신선한 우유가 만나 달콤하고 풍부한 맛을 담은 커피", "hit": false, "best": true},
+        {"menu_kr":"바닐라라떼 (HOT/ ICED)","menu_eng":"Vanilla Latte","Image":"./images/content01/coffee_09.png","info":"진한 에스프레소에 달콤한 바닐라파우더와 우유가 만나 부드러운 맛을 담은 커피", "hit": false, "best": true},
+        {"menu_kr":"카페모카 (HOT/ ICED)","menu_eng":"Caffe Mocha","Image":"./images/content01/coffee_10.png","info":"진한 에스프레소에 초콜릿 모카베이스와 우유, 달콤한 생크림으로 부드러움을 더한 커피", "hit": false, "best": false},
+        {"menu_kr":"그린민트 모카 (HOT/ ICED)","menu_eng":"Green Mint Mocha","Image":"./images/content01/coffee_11.png","info":"진한 에스프레소에 달콤한 초코, 민트향이 첨가되어 상쾌하고 달콤한 커피", "hit": false, "best": false},
+        {"menu_kr":"화이트 드림 모카 (HOT/ ICED)","menu_eng":"White Dream Mocha","Image":"./images/content01/coffee_12.png","info":"진한 에스프레소에 부드러운 화이트 초콜릿 소스와 우유가 조화로운 달콤한 커피", "hit": false, "best": false}
+    ],
+
+    "menu_dessert": [
+        {"menu_kr":"퐁퐁 블랜디드","menu_eng":"Pong Pong Blended","Image":"./images/content02/dessert_01.png","info":"달콤 시원한 화이트칩 스무디와 초코 쿠키, 쌀과자가 조화로운 시원한 음료", "hit": false, "best": false},
+        {"menu_kr":"카페모카 블랜디드","menu_eng":"Caffe Mocha Blended","Image":"./images/content02/dessert_02.png","info":"초콜릿 모카 파우더와 에스프레소를 신선한 우유, 얼음과 갈아서 만든 시원한 음료", "hit": false, "best": false},
+        {"menu_kr":"그린민트모카칩 블랜디드","menu_eng":"Green Mint Mocha Chip Blended","Image":"./images/content02/dessert_03.png","info":"민트향의 진한 초콜릿 파우더와 다크초콜렛칩, 에스프레소를 우유, 얼음과 갈아서 만든 시원한 음료", "hit": false, "best": false},
+        {"menu_kr":"그린티 블랜디드","menu_eng":"Greentea Blended","Image":"./images/content02/dessert_04.png","info":"깊은 맛의 녹차 블렌디드", "hit": true, "best": false},
+        {"menu_kr":"쿨청포도 스무디","menu_eng":"Cool Green Grape Smoothie","Image":"./images/content02/dessert_05.png","info":"싱그러운 청포도의 맛을 가득 담은 시원한 청포도 스무디", "hit": false, "best": false},
+        {"menu_kr":"화이트칩 스무디","menu_eng":"White Chip Smoothie","Image":"./images/content02/dessert_06.png","info":"진한 화이트 초콜릿에 고소한 헤이즐넛의 향을 더한 부드러운 크림 스무디", "hit": false, "best": false},
+        {"menu_kr":"라즈크랜베리 스무디","menu_eng":"Raspcranberry Smoothie","Image":"./images/content02/dessert_07.png","info":"달콤한 요거트와 상큼한 라즈크랜베리가 잘 어우러진 스무디", "hit": false, "best": false},
+        {"menu_kr":"요거트 스무디","menu_eng":"Yogurt Smoothie","Image":"./images/content02/dessert_08.png","info":"상큼한 요거트와 신선한 우유를 얼음과 같이 갈아서 만든 시원한 스무디", "hit": true, "best": false},
+        {"menu_kr":"블루베리 스무디","menu_eng":"Blueberry Smoothie","Image":"./images/content02/dessert_09.png","info":"상큼한 요거트와 진한 블루베리의 달콤함을 느낄 수 있는 달콤한 스무디", "hit": false, "best": false},
+        {"menu_kr":"애플망고 스무디","menu_eng":"Applemango Smoothie","Image":"./images/content02/dessert_10.png","info":"부드럽고 진한 애플망고 맛과 향이 어우러진 시원한 스무디", "hit": true, "best": false},
+        {"menu_kr":"흑당 라떼(HOT/ICED)","menu_eng":"Black Sugar Latte","Image":"./images/content02/dessert_11.png","info":"대만 흑설탕의 달콤함과 고소한 우유의 만남", "hit": false, "best": false},
+        {"menu_kr":"베이비크림 초콜릿 (HOT/ ICED)","menu_eng":"Baby Cream Chocolate","Image":"./images/content02/dessert_12.png","info":"유기농 초콜릿 파우더를 우유와 잘 혼합하여 휘핑크림과 초콜릿파우더로 마무리한 초콜릿 음료", "hit": false, "best": false},
+        {"menu_kr":"화이트 리얼 초콜릿 (HOT)","menu_eng":"White Real Chocolate","Image":"./images/content02/dessert_13.png","info":"화이트 초콜릿을 우유에 직접 녹여 부드러운 휘핑크림과 초콜릿으로 마무리한 음료", "hit": false, "best": false},
+        {"menu_kr":"다크 리얼 초콜릿 (HOT)","menu_eng":"Dark Real Chocolate","Image":"./images/content02/dessert_14.png","info":"초콜릿을 우유에 직접 녹여 부드러운 휘핑크림과 초콜릿으로 마무리한 달콤한 음료", "hit": false, "best": true},
+        {"menu_kr":"그린민트 초콜릿 (HOT/ ICED)","menu_eng":"Green Mint Chocolate","Image":"./images/content02/dessert_15.png","info":"민트향 초콜릿 파우더에 우유와 부드러운 휘핑크림, 초콜릿 파우더로 마무리한 달콤한 음료", "hit": false, "best": false},
+        {"menu_kr":"제주사랑 한라봉주스 (ICED)","menu_eng":"Jejusarang Hallabong Juice","Image":"./images/content02/dessert_16.png","info":"청정 제주도의 한라봉의 풍부한 과육과 과즙을 느낄 수 있는 프리미엄 주스", "hit": false, "best": false},
+        {"menu_kr":"자몽주스 (ICED)","menu_eng":"Grapefruit Juice","Image":"./images/content02/dessert_17.png","info":"상큼한 자몽 과육과 과즙이 들어있는 신선한 주스", "hit": false, "best": true},
+        {"menu_kr":"자몽라떼 (ICED)","menu_eng":"Grapefruit Latte","Image":"./images/content02/dessert_18.png","info":"상큼한 자몽 과즙과 우유의 부드러움이 조화로운 과일 라떼", "hit": false, "best": false},
+        {"menu_kr":"레몬 그린 소다 (ICED)","menu_eng":"Lemon Green Soda","Image":"./images/content02/dessert_19.png","info":"달지 않은 소다수와 레몬퓨레, 상큼함이 조화로운 시원한음료", "hit": false, "best": false},
+        {"menu_kr":"페퍼민트","menu_eng":"Peppermint Tea","Image":"./images/content02/dessert_20.png","info":"강한 청량감이 있어 여러 나라 약전에도 올라있는 귀중한 약초효능의 허브티", "hit": false, "best": false},
+        {"menu_kr":"홍차","menu_eng":"Black Tea","Image":"./images/content02/dessert_21.png","info":"맑고 깔끔한 맛을 그대로 담은 순하고 화려한 향의 제주 유기농 홍차", "hit": true, "best": false},
+        {"menu_kr":"얼그레이","menu_eng":"Earl Grey","Image":"./images/content02/dessert_22.png","info":"홍차 잎에 베르가모토 오렌지 향이 첨가되어 풍부하고 고급스러운 향을 느낄 수 있는 블랙티", "hit": false, "best": false}
+    ],
+
+    "menu_wine": [
+        {"menu_kr":"레드 그루 와인","menu_eng":"Red Guru Wine","Image":"./images/content03/wine_01.png","info":"오크향과 자두향이 입안 가득히 퍼지며 묵직한 벨벳의 바디감으로 입안을 풍요롭게 하는 레드와인", "hit": true, "best": true},
+        {"menu_kr":"아이스키스 와인","menu_eng":"Ice Kiss Wine","Image":"./images/content03/wine_02.png","info":"은은한 과일향과 꽃향기의 달콤함과 입안에 감도는 맛이 벌꿀처럼 달콤한 아이스와인", "hit": true, "best": false},
+        {"menu_kr":"라임 샹그리아 레드","menu_eng":"Lime Sangria Red","Image":"./images/content03/wine_03.png","info":"달콤한 라임과 레드와인이 조화로운 와인 음료", "hit": false, "best": true},
+        {"menu_kr":"라임 샹그리아 화이트","menu_eng":"Lime Sangria White","Image":"./images/content03/wine_04.png","info":"달콤한 라임과 화이트 와인이 조화로운 와인 음료", "hit": false, "best": false},
+        {"menu_kr":"레드 와인 소다","menu_eng":"Red Wine Soda","Image":"./images/content03/wine_05.png","info":"레드 그루 와인의 맛과 향을 살려 향긋한 바질향으로 마무리한 음료", "hit": false, "best": false},
+        {"menu_kr":"스노우 슈가 와인","menu_eng":"Snow Sugar Wine","Image":"./images/content03/wine_06.png","info":"커핀그루나루 대표 와인 아이스키스 와인을 더 달콤하고 시원하게 마실수 있는 음료", "hit": false, "best": false},
+        {"menu_kr":"크리스마스 글루바인","menu_eng":"Christmas Gluhwein","Image":"./images/content03/wine_07.png","info":"이태리에서 직수입한 몬텔비노 와인을 끓여 레몬의 상큼함을 더한 따뜻한 와인", "hit": false, "best": false},
+        {"menu_kr":"헤밍웨이가 사랑한 모히토","menu_eng":"Hemingway Loved Mojito","Image":"./images/content03/wine_08.png","info":"상큼한 라임과 청량감이 있는 민트잎, 달달한 설탕이 모히토와 어우러진 알코올 음료", "hit": true, "best": false}
+    ]
+}

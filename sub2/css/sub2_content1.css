@@ -1,0 +1,55 @@
+@charset "utf-8"; .content_area { width: 1400px; margin: 0 auto; } 
+section { padding: 100px 0; } 
+section:first-of-type {background: #fcf6ea;
+    text-align: center;
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);} 
+section h3 { width: 100%; font-size: 3.125rem; color: #5A260D; text-align: center; } 
+
+/* 앱 주요 기능 section */
+.app_func {width: 1400px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 100px; margin-top: 100px;} 
+.app_func .app_left { width: 45%; display: flex; flex-direction: column;}
+.app_func .app_left .txt_area {color: #6a2e92; font-size: 26px; font-weight: 600; word-break: auto-phrase; text-align: initial;} 
+.app_func .app_left .txt_area span:first-of-type {color: #6a2e92; font-size: 34px; display: inline-block;} 
+.app_func .app_left .txt_area span {display: block; color: #666; font-size: 20px; margin-top: 20px;} 
+.app_func .app_left .store_box {overflow: hidden; align-self: flex-end; background: rgba(0, 0, 0, .2); padding: 30px; border-radius: 20px; margin-top: 90px;} 
+.app_func .app_left .store_box a {float: left; transition: all .3s ease-in-out;} 
+.app_func .app_left .store_box a:hover {box-sizing: border-box;transform: scale(1.03);}
+.app_func .app_left .store_box a:nth-of-type(1) { margin-right: 30px; border: 10px solid #6a2d91; border-radius: 10px;} 
+.app_func .app_left .store_box a:nth-of-type(2) {margin-bottom: 32px;} 
+
+.app_func .app_right { margin: 0 0 0 150px;} 
+.app_func .app_right .card_swiper { width: 430px; height: 600px;} 
+.app_func .app_right .card_swiper .swiper-slide { display: flex; flex-direction: column; align-items: center; padding: 40px 30px; box-sizing: border-box; gap: 30px; border-radius: 18px; color: #fff; background: #f8f0ff; box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, .3); } 
+.app_func .app_right .card_swiper .swiper-slide img { width: 50%; } 
+.app_func .app_right .card_swiper .swiper-slide p { color: #6a2e92; font-size: 30px; font-weight: 600;} 
+.app_func .app_right .card_swiper .swiper-slide span { color: #666; font-size: 20px; } 
+.app_func .app_right .card_swiper .swiper-button-next:after, .swiper-rtl .swiper-button-prev:after,
+.app_func .app_right .card_swiper .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after { content: '\f061'; font-family: "Font Awesome 5 Free"; font-weight: 700; color: #666; } 
+.app_func .app_right .card_swiper .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after { content: '\f060'; } 
+
+
+
+
+/* 퍼플멤버스 공통 혜택 section */
+.benefit_box { display: flex; justify-content: center; position: relative; margin: 100px 0; } 
+.benefit_box .benefit_left { display: flex; flex-direction: column; align-items: center; margin: 100px 600px 0 0; } 
+.benefit_box .benefit_left .img_box { background: #dbd0f1; width: 500px; height: 500px; border-radius: 50%; display: flex; justify-content: center; align-items: center; flex-direction: column; position: relative; box-shadow: 2px 2px 10px 4px rgba(0, 0, 0, .3); } 
+.benefit_box .benefit_left .img_box::before { content: ''; display: block; width: 400px; height: 400px; border-radius: 50%; position: absolute; left: -50px; top: -50px; z-index: -1; background: #6a2e92; } 
+.benefit_box .benefit_left img { width: 80%; } 
+.benefit_box .benefit_right { width: 660px; position: absolute; right: 0; top: 250px; } 
+.benefit_box .benefit_right ul { position: relative; top: -110px; } 
+.benefit_box .benefit_right li dl { box-sizing: border-box; position: relative; transition: all .5s ease-out; } 
+.benefit_box .benefit_right li dt { font-weight: 600; font-size: 20px; display: inline-block; border-bottom: 1px solid #333; } 
+.benefit_box .benefit_right li dd { display: none; margin-top: 20px; word-break: break-word; color: #333; word-break: auto-phrase; } 
+.benefit_box .benefit_right li dd span { color: #FAAC1E; } 
+.benefit_box .benefit_right li.on dl { background: #F8F0FF; padding: 20px; border-radius: 20px 0 20px; } 
+.benefit_box .benefit_right li.on dt { border-bottom: none; font-size: 30px; color: #6A2E92; } 
+.benefit_box .benefit_right li.on dd { display: block;} 
+.benefit_box .benefit_left .img_box img { transition: all 0.3s ease; opacity: 1; } 
+.benefit_box .benefit_left .img_box img.fade-out { opacity: 0; } 
+.benefit_box .benefit_right ul:first-child > li { transition: all 0.3s ease; opacity: 0.6; position: relative; margin-bottom: 20px; cursor: pointer; } 
+.benefit_box .benefit_right ul:first-child > li.on { opacity: 1; transform: scale(1.05); } 
+.benefit_box .benefit_right ul:first-child > li.on::before { content: none; } 
+.benefit_box .benefit_right ul:last-child { transition: all 0.3s ease; position: absolute; left: 0; top: 250px; color: #666; border: 1px dashed #ccc; padding: 15px;} 
+.benefit_box .benefit_right ul:last-child.fade-out { opacity: 0; } 

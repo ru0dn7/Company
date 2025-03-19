@@ -1,0 +1,77 @@
+<header id="headerArea">
+    <div class="header_inner">
+        <h1 class="logo">
+            <a href="./index.html">커핀 그루나루</a>
+        </h1>
+        <nav id="gnb">
+            <h2 class="hidden">글로벌 네이게이션</h2>
+            <ul class="dropdownmenu">
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./sub1/sub1_1.html">메뉴</a></h3>
+                    <ul>
+                        <li><a href="./sub1/sub1_1.html">커피 & 음료</a></li>
+                        <li><a href="./sub1/sub1_2.html">디저트</a></li>
+                        <li><a href="./sub1/sub1_3.html">와인</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./sub2/sub2_1.html">멤버십</a></h3>
+                    <ul>
+                        <li><a href="./sub2/sub2_1.html">퍼플멤버스 소개</a></li>
+                        <li><a href="./sub2/sub2_2.html">퍼플멤버스 혜택</a></li>
+                        <li><a href="./sub2/sub2_3.html">충전형 / 기프트카드</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./sub3/sub3_1.html">프랜차이즈</a></h3>
+                    <ul>
+                        <li><a href="./sub3/sub3_1.html">가맹안내</a></li>
+                        <li><a href="./sub3/sub3_2.html">개설절차</a></li>
+                        <li><a href="./sub3/sub3_3.html">개설문의</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./sub4/sub4_1.html">사회공헌</a></h3>
+                    <ul>
+                        <li><a href="./sub4/sub4_1.html">글로벌 사회활동</a></li>
+                        <li><a href="./sub4/sub4_2.html">지역 사회활동</a></li>
+                        <li><a href="./sub4/sub4_3.html">환경보호 활동</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./sub5/sub5_1.html">회사소개</a></h3>
+                    <ul>
+                        <li><a href="./sub5/sub5_1.html">브랜드 소개</a></li>
+                        <li><a href="./sub5/sub5_2.html">연혁</a></li>
+                        <li><a href="./sub5/sub5_3.html">Coffee & Wine</a></li>
+                        <li><a href="./sub5/sub5_4.html">오시는길</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown_lst">
+                    <h3><a class="depth1" href="./greet/list.php">커뮤니티</a></h3>
+                    <ul>
+                        <li><a href="./greet/list.php">공지사항</a></li>
+                        <!-- <li><a href="./sub6/sub6_1.html">공지사항</a></li> -->
+                        <li><a href="./sub6/sub6_2.html">이벤트</a></li>
+                        <li><a href="./sub6/sub6_3.html">FAQ</a></li>
+                        <li><a href="./sub6/sub6_4.html">고객의 소리</a></li>
+                        <li><a href="./news/list.php">NEWS</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+        <ul class="top_menu">
+            <? if(!$userid){ // 로그인이 안된 상태냐?? ?>
+
+                <li><a href="./login/login_form.php">로그인</a></li>
+                <li><a href="./member/member_check.html">회원가입</a></li>
+
+            <? } else { ?>
+
+                <li><a href="./login/logout.php">로그아웃</a></li>
+                <li><a href="./member/member_form_modify.php">정보수정</a></li>
+
+            <? } ?>
+        </ul>
+    </div>
+</header>

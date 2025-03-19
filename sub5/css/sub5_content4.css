@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+.content_area {width: 1400px; margin: 0 auto;}
+section {padding: 100px 0;}
+
+/* 오시는길 페이지 내용영역 */
+.map_container #map {width: 1200px; height: 650px; margin: 0 auto; border-radius: 20px; margin-bottom: 50px; box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.2);}
+.map_container .map_info {width: 1200px; margin: 0 auto; display: flex; justify-content: space-between;}
+.map_container .map_info ul li {display: flex; margin-bottom: 10px;}
+.map_container .map_info ul li p {font-size: 18px; width: 150px; color: #333}
+.map_container .map_info ul li p i {width: 20px; margin-right: 3px;}
+.map_container .map_info ul li span {font-size: 18px; color: #333;}
+.map_container .map_info div {margin: 10px;}
+.map_container .map_info div button {background: #533E34; color: #fff; font-size: 14px; padding: 10px 0; width: 120px;}
+.map_container .map_info div button i {margin-right: 5px;}
+.map_container .way {border: 4px dashed #eee; width: 1200px; margin: 100px auto 0; padding: 30px;}
+.map_container .way strong {font-size: 30px; color: #333;}
+.map_container .way dl {overflow: hidden; margin: 30px 0;}
+.map_container .way dl::before {content:"\f1b9"; font-family:FontAwesome; display: block; float: left; color: #533E34; font-size: 50px; width: 50px; float: left; text-align: center; margin-right: 20px; margin-top: 9px;}
+.map_container .way dl:nth-of-type(2)::before {content:"\f239";}
+.map_container .way dt {color: #533E34; font-size: 26px;}
+.map_container .way dd {color: #333; font-size: 20px;}

@@ -1,0 +1,15 @@
+@charset "utf-8";
+.content_area {width: 1400px; margin: 0 auto;}
+section {padding: 100px 0;}
+
+/* 퍼플멤머십 소개 section */
+section {}
+
+section>div li { display: flex; padding: 60px; background: #eee; border-radius: 20px; gap: 100px; margin-bottom: 50px;}
+section>div li:hover {background: #ddd; box-shadow: 2px 2px 10px 4px rgba(0,0,0,.2);}
+section>div li .left img {width: 400px;}
+section>div li dt  {color: #812990; font-size: 2rem; font-weight: 600; margin-bottom: 20px;}
+section>div li dd  {font-size: 1.5rem; word-break: keep-all;}
+section>div>dl {border: 5px dashed #ccc; padding: 30px;  border-radius: 20px; background: #eee;}
+section>div>dl dt {color: #666; font-size: 1.5rem; margin-bottom: 20px;}
+section>div>dl dd {color: #999; font-size: 1.2rem;}
